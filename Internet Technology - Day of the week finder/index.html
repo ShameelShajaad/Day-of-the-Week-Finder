@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day of the Week Finder</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
+  </head>
+  <body>
+    <div class="middle_box">
+      <h1>Day of the Week Finder</h1>
+      <div class="input_section">
+        <label>
+          Year <input type="number" id="year" placeholder="YYYY" />
+        </label>
+        <label>
+          Month <input type="number" id="month" placeholder="MM" />
+        </label>
+        <label> Date <input type="number" id="date" placeholder="DD" /> </label>
+      </div>
+
+      <button id="find_btn" onclick="findDay()">Find Day</button>
+
+      <div class="result_box">
+        <p>Result</p>
+        <h2 id="result">0</h2>
+      </div>
+    </div>
+
+    <footer>
+      <p>Created by Shameel Shajaad (PR25118230)</p>
+    </footer>
+
+    <script src="Assets/JS/app.js"></script>
+  </body>
+</html>
