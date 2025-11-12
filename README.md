@@ -42,19 +42,19 @@ This project demonstrates **front-end web development skills**, including **form
 
 1. **Clone or Download the Repository**
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/ShameelShajaad/Day-of-the-Week-Finder.git
 
 2. **Open in Browser**
    -Open index.html in any modern web browser (Chrome, Edge, Firefox)
 3. **Folder Structure**
 
-Day of the week finder/
-├── Assets/
-│   ├── CSS/
-│   │   └── style.css
-│   └── JS/
-│       └── app.js
-└── index.html
+Day of the week finder/  
+├── Assets/  
+│   ├── CSS/  
+│   │   └── style.css  
+│   └── JS/  
+│       └── app.js  
+└── index.html  
 
 4. **Usage**
    -Enter a year, month, and date
